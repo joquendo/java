@@ -1,8 +1,8 @@
 public class VarExample {
     public static void main (String args[]) {
-        int x = Integer.parseInt(args[0]);
-        int y = Integer.parseInt(args[1]);
-        int z;
+        double x = Double.parseDouble(args[0]);
+        double y = Double.parseDouble(args[1]);
+        double z;
 
         System.out.println("x = " + x);
         System.out.println("y = " + y);
@@ -13,6 +13,6 @@ public class VarExample {
         z = x * y;
         System.out.println("x * y = " + z);
         z = x / y;
-        System.out.println("x / y = " + z); // Division results round down in java
+        System.out.println("x / y = " + z); // Double number results in java Ex: 3.23583174523
     }
 }
